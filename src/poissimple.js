@@ -224,4 +224,11 @@ Poissimple.prototype.getPoints = function() {
     return this.points;
 }
 
+/**
+ * Resets the state of the object, all generated points are removed.
+ */
+Poissimple.prototype.reset = function() {
+    this.points = [];
+}
+
 module.exports = Poissimple;
