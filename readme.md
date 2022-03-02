@@ -12,17 +12,17 @@ The module is available on npm:
 npm install poissimple
 ```
 
-## Motivation
+## Description
 While seemingly every other implementation of PDS requires the user to specify the minimum distance between samples, poissimple lets the user generate a given number of points.
 The minimum distance is computed using a heuristic that works reasonably well in 1, 2 and 3 dimensions.
 There are no guarantees for 4 dimensions and above.
 
-poissimple uses the brute-force approach, which requires computing the pairwise distances between every new candidate and the previously accepted points.
-This leads to a runtime of O(n²), where n is the number of points to be generated.
+poissimple uses a brute-force approach, which requires computing the pairwise distances between every new candidate and the previously accepted points.
+This leads to a time complexity of O(n²), where n is the number of points to be generated.
 While slower than the O(n) [Bridson algorithm](https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf), poissimple is useful in cases where a small, specified number of points is needed.
 
 To give an idea of the performance, the table below shows the average time needed to generate a certain number of points in dimensions 1 through 4
-(measured in milliseconds on a 2021 M1 MBP):
+(measured in milliseconds on a 2020 M1 MBP):
 
 <center>
 
