@@ -57,9 +57,9 @@ const ps = new Poissimple({
 console.log(ps.fill()); // Outputs array of values: [x1, x2, x3, ...]
 ```
 
-<center>
-<img src="./docs/img/1d-example.png" width="70%"></img>
-</center>
+<p align="center">
+    <img src="./docs/img/1d-example.png" style="display:block;max-width:70%;"></img>
+</p>
 
 ### **Two-dimensional points:**
 Next, we generate 200 two-dimensional points in the rectangle [-1, 1] × [0, 1], with `periodic` set to `true`.
