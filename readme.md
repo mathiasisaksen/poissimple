@@ -58,7 +58,7 @@ console.log(ps.fill()); // Outputs array of values: [x1, x2, x3, ...]
 ```
 
 <p align="center">
-    <img src="./docs/img/1d-example.png" style="display:block;max-width:70%;"></img>
+    <img src="./docs/img/1d-example.png" style="display:block;max-width:500px;width:100%"></img>
 </p>
 
 ### **Two-dimensional points:**
