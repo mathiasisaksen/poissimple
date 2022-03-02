@@ -15,6 +15,8 @@
  * @constructor
  */
 function Poissimple(options, rng = Math.random) {
+    // TODO: Constructor should be refactored into methods
+
     if (typeof options.n !== "number" || options.n < 1) {
         throw new Error("'n' must be an integer greater than 0")
     }
@@ -30,7 +32,7 @@ function Poissimple(options, rng = Math.random) {
     if (specifiedDim < 1) throw new Error("'dimensions' must be an integer greater than or equal to 1");
 
     // Check: Are both dimensions and extent unspecified, or inconsistent?
-    // This is a bit hard to follow, should be refactored
+    // TODO: This is a bit hard to follow, should be refactored
     if (specifiedDim === undefined && inferredDim === undefined) {
         throw new Error("At least one of 'dimensions' and 'extent' must be specified");
     } else if (typeof specifiedDim === "number" && typeof inferredDim === "number" && specifiedDim !== inferredDim) {
