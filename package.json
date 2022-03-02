@@ -1,13 +1,15 @@
 {
   "name": "poissimple",
   "version": "0.0.1",
-  "description": "Naive implementation of Poisson disk sampling. Samples a specified number of points in any number of dimensions.",
+  "description": "Naive implementation of Poisson disk sampling, allowing for tileability. Samples a specified number of points in any number of dimensions.",
   "keywords": [
     "poisson disk sampling",
     "blue noise",
     "poisson",
     "point pattern",
-    "repulsive point process"
+    "repulsive point process",
+    "tileable",
+    "periodic"
   ],
   "homepage": "https://github.com/mathiasisaksen/poissimple",
   "bugs": "https://github.com/mathiasisaksen/poissimple/issues",
