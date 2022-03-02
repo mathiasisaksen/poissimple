@@ -58,7 +58,7 @@ console.log(ps.fill()); // Outputs array of values: [x1, x2, x3, ...]
 ```
 
 <p align="center">
-    <img src="./docs/img/1d-example.png" style="display:block;max-width:500px;width:100%"></img>
+    <img src="./docs/img/1d-example.png" style="display:block;max-width:70%;width:750px"></img>
 </p>
 
 ### **Two-dimensional points:**
@@ -74,9 +74,9 @@ const ps = new Poissimple({
 });
 console.log(ps.fill()); // Outputs array of arrays: [[x1, y1], [x2, y2], ...]
 ```
-<center>
-<img src="./docs/img/2d-example.png" width="70%"></img>
-</center>
+<p align="center">
+    <img src="./docs/img/2d-example.png" style="display:block;max-width:70%;width:750px"></img>
+</p>
 
 ### **Three-dimensional points:**
 If `extent` is not specified, the coordinate bounds will be [-1, 1] along each dimension.
@@ -92,9 +92,9 @@ const ps = new Poissimple({
 console.log(ps.fill()); // Outputs array of arrays: [[x1, y1, z1], [x2, y2, z2], ...]
 ```
 
-<center>
-<img src="./docs/img/3d-example.png" width="70%"></img>
-</center>
+<p align="center">
+    <img src="./docs/img/3d-example.png" style="display:block;max-width:70%;width:750px"></img>
+</p>
 
 ## API
 
