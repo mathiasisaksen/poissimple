@@ -1,6 +1,6 @@
 {
   "name": "poissimple",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Simple and tileable Poisson disk sampling, allowing for the generation of a specified number of points in any number of dimensions",
   "keywords": [
     "poisson disk sampling",

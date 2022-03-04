@@ -115,7 +115,7 @@ console.log(ps.fill()); // Outputs array of arrays: [[x1, y1, z1], [x2, y2, z2],
 const ps = new Poissimple({
     n: 50,
     dimensions: 1,
-    extent: [[-1, 1], [0, 1]],
+    extent: [-1, 1],
     periodic: false,
     tries: 15
 });
